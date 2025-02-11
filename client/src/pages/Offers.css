@@ -1,0 +1,44 @@
+/* Offers.css */
+.offers-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.offer-card:hover {
+    transform: scale(1.03);
+}
+
+.offer-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.offer-description {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.offer-price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.offer-platform {
+    font-style: italic;
+    color: #6c757d;
+}
